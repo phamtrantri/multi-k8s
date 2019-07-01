@@ -6,9 +6,9 @@ docker push triphamtran/multi-client:latest
 docker push triphamtran/multi-server:latest
 docker push triphamtran/multi-worker:latest
 
-docker push triphamtran/multi-client:SHA
-docker push triphamtran/multi-server:SHA
-docker push triphamtran/multi-worker:SHA
+docker push triphamtran/multi-client:$SHA
+docker push triphamtran/multi-server:$SHA
+docker push triphamtran/multi-worker:$SHA
 
 kubectl apply -f k8s
 
